@@ -14,6 +14,8 @@ The parameters are self explanotary, but a couple of notes:
 training_data and optional test_data should be a tuple (x,y) x and y being arrays of input and output vectors respectively.  
 Network can run batch gradient descent and stochastic gradient descent if mini_batch_size is set to length of the training data or 1  
 NB. Network.save saves the weights and biases of the network in a .pickle file
+### Technical information
+The network calculates the derivative of cost function using backpropagation and updates weights using  stochastic gradient descent
 ## Future plans
 The network will gain new functionality in the following weeks,(Momentum gradient descent, new cost functions...) and will be used to construct an chess-playing neural net.
 ## Dependencies
